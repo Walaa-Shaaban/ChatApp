@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chat.iml" filepath="$PROJECT_DIR$/Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colorpicker-library/colorpicker-library.iml" filepath="$PROJECT_DIR$/colorpicker-library/colorpicker-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/countrypickerx/countrypickerx.iml" filepath="$PROJECT_DIR$/countrypickerx/countrypickerx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supernova-emoji-library/supernova-emoji-library.iml" filepath="$PROJECT_DIR$/supernova-emoji-library/supernova-emoji-library.iml" />
+    </modules>
+  </component>
+</project>

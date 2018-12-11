@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chat.walaashaaban.chat.StartActivity"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/main_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/start_login_btn"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/main_pic" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/main_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_blue"
+        android:text="Login"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/start_login_btn"
+        android:layout_below="@+id/start_login_btn"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_blue"
+        android:text=" Sign up"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+</RelativeLayout>

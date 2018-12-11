@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.chat.walaashaaban.chat.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image_user"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/profile"
+        android:transitionName="imageTransition"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/chat_image"
+        android:layout_alignTop="@+id/profile_image_user"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="11dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal"
+        android:text="Display Name"
+        android:transitionName="nameTransition"
+        android:textColor="@android:color/white"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Status"
+        android:transitionName="statusTransition"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/chat_image"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/profile_status"
+        android:layout_toStartOf="@+id/profile_decline_friend_request"
+        android:src="@drawable/ic_chat_white_36dp" />
+
+    <TextView
+        android:id="@+id/profile_total_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Total  Friends"
+        android:textColor="@android:color/black"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/profile_btn_send_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_total_friends"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/button"
+        android:text="Send Friend Request"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/profile_decline_friend_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_btn_send_request"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="Ignore Friend Request"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

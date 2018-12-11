@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+
+def gitHubUsername = "kristiyanP"
+def gitHubProjectName = "colorpicker"
+
+// start - do not modify this if your project is on github
+def siteUrl = "https://github.com/${gitHubUsername}/${gitHubProjectName}"
+def gitUrl = siteUrl + '.git'
+def bugTrackerUrl = siteUrl + '/issues/'
+def projectName = gitHubProjectName
+// end - do not modify this if your project is on github
+
+def projectDesc = "A simple color picker library for Android Edit"
+def projectGroup = "petrov.kristiyan"
+def projectLicenses = ["Apache-2.0"]
+def projectLicenseUrl = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+def projectKeywords = ['color', 'library', 'colorpicker','android']
+def developerFullName = "Kristiyan Petrov"
+group = projectGroup
+version = "1.1.8"
+
+def sdkVersion = 26
+def toolsVersion = "26.0.1"
+
+android {
+    compileSdkVersion sdkVersion
+    buildToolsVersion toolsVersion
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion sdkVersion
+        versionCode 1
+        versionName version
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        warning 'InvalidPackage'
+    }
+    buildToolsVersion '26.0.2'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile "com.android.support:appcompat-v7:${toolsVersion}"
+    compile "com.android.support:recyclerview-v7:${toolsVersion}"
+    testCompile 'junit:junit:4.12'
+}
+

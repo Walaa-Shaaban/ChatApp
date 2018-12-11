@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@color/colorPrimary</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CustomTabTexStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">false</item>
+
+    </style>
+
+    <style name="MaterialDrawer.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MenuButtonsSmall">
+        <item name="fab_size">normal</item>
+        <item name="fab_colorNormal">#3975c4</item>
+        <item name="fab_colorPressed">#3975c4</item>
+        <item name="fab_colorRipple">#3975c4</item>
+    </style>
+
+
+    <style name="MenuButtonsSmall.Red">
+        <item name="fab_size">normal</item>
+        <item name="fab_colorNormal">#e7171d</item>
+        <item name="fab_colorPressed">#e7171d</item>
+        <item name="fab_colorRipple">#e7171d</item>
+    </style>
+
+    <style name="MenuButtonsSmall.Green">
+        <item name="fab_colorNormal">#0acf12</item>
+        <item name="fab_colorPressed">#0acf12</item>
+        <item name="fab_colorRipple">#0acf12</item>
+    </style>
+
+    <style name="MenuButtonsSmall.orange">
+        <item name="fab_colorNormal">#ed850d</item>
+        <item name="fab_colorPressed">#ed850d</item>
+        <item name="fab_colorRipple">#ed850d</item>
+    </style>
+
+    <!--<style name="PagerTabStripText">-->
+        <!--<item name="android:textStyle">bold</item>-->
+        <!--<item name="android:fontFamily">casual</item>-->
+    <!--</style>-->
+
+
+</resources>

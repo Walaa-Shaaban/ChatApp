@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu_white_24dp"
+        android:title=""
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_white_24dp"
+                android:title="" />
+
+            <item
+                android:id="@+id/menu_delete_conversation"
+                android:icon="@drawable/icons8_delete_message_26"
+                android:title="Delete Conversation" />
+
+            <item
+                android:id="@+id/menu_open_profile"
+                android:icon="@drawable/ic_account_box_white_18dp"
+                android:title="Open Profile" />
+
+            <item
+                android:id="@+id/menu_upload_image_background"
+                android:icon="@drawable/ic_add_to_photos_white_24dp"
+                android:title="Upload background image" />
+
+            <item
+                android:id="@+id/menu_change_color"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="Change background color " />
+
+            <item
+                android:id="@+id/menu_all_images"
+                android:icon="@drawable/ic_camera_front_white_24dp"
+                android:title="All Images" />
+
+        </menu>
+    </item>
+</menu>

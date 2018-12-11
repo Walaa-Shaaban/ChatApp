@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu_white_24dp"
+        android:title=""
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_white_24dp"
+                android:title="" />
+
+            <item
+                android:id="@+id/menu_save"
+                android:icon="@drawable/save_icon_smaller"
+                android:title="Save Image" />
+
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_share_white_24dp"
+                android:title="Share Image" />
+
+            <item
+                android:id="@+id/menu_delete_image"
+                android:icon="@drawable/delete_image"
+                android:title="Delete Image" />
+
+
+
+
+        </menu>
+    </item>
+</menu>

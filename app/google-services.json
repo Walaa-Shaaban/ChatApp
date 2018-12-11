@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "341049123081",
+    "firebase_url": "https://chatappwalaa.firebaseio.com",
+    "project_id": "chatappwalaa",
+    "storage_bucket": "chatappwalaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341049123081:android:74e05ed95fd131e3",
+        "android_client_info": {
+          "package_name": "com.chat.walaashaaban.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341049123081-g4the6rk8fafg82u1h13ihs48knt9e62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.walaashaaban.chat",
+            "certificate_hash": "fca2758577cea9e42d6dca66806d249a93025e04"
+          }
+        },
+        {
+          "client_id": "341049123081-nk5b1ac2r8lc5orv9qn0va6cd7abs0t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx88V7Kke5Z-jb6r4LE1ZM0TVHsAaX1Tc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341049123081-nk5b1ac2r8lc5orv9qn0va6cd7abs0t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

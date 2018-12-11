@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_white_24dp">
+        <menu>
+            <item android:title=""
+                android:icon="@drawable/ic_menu_white_24dp"/>
+
+            <item
+                android:id="@+id/menu_male"
+                android:title=" Male "
+                android:icon="@drawable/male" />
+            <item
+                android:id="@+id/menu_female"
+                android:title=" Female "
+                android:icon="@drawable/female" />
+
+
+        </menu>
+    </item>
+</menu>

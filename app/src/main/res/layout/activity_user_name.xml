@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.chat.walaashaaban.chat.UserNameActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/user_name_bar"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/user_name_bar"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="73dp"
+        android:id="@+id/textInputLayout3">
+
+        <EditText
+            android:id="@+id/change_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" User Name"
+            android:gravity="left"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSaveUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/pauseupload_background"
+        android:text="Save Changes"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"/>
+
+
+</RelativeLayout>
